@@ -1,4 +1,3 @@
-import Image from "next/image";
 import "./globals.css";
 import { Card } from "@/components/ui/card";
 import Line from "@/components/Line"
@@ -126,16 +125,11 @@ transition-all duration-200 ease-in-out scale-90"
             >
               <Card className="shadow-lg my-4   w-fit h-full rounded-xl hover:cursor-pointer transition-all duration-200 ease-in-out scale-90 hover:shadow-2xl  hover:opacity-100 hover:scale-110">
                 <a target="_blank" className="flex flex-col" href="https://lively-zabaione-6127f6.netlify.app/">
-                  <Image src="/designsystem.png" height={'100'} width={'250'} className="rounded-xl z-10 " alt="" />
+                  <img src="/designsystem.png" className="h-[130px] w-fit rounded-xl z-10 " alt="" />
 
                 </a>
               </Card>
-              <Card className="shadow-lg my-4   w-fit h-full rounded-xl hover:cursor-pointer transition-all duration-200 ease-in-out scale-90 hover:shadow-2xl   hover:opacity-100 hover:scale-110">
-                <a target="_blank" href="" className="flex flex-col">
-                  <Image src="/" height={'100'} width={'250'} className="rounded-xl z-10 " alt="" />
 
-                </a>
-              </Card>
             </div>
           </div>
         </div>
